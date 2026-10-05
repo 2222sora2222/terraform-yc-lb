@@ -50,23 +50,23 @@ curl http://158.160.209.102
 
 ### 1. Сетевой балансировщик — статус Active
 
-![Сетевой балансировщик Active](nginx-network-balancer.png)
+![Сетевой балансировщик Active](screenshots/nginx-network-balancer.png)
 
 ### 2. Целевая группа — обе ВМ в статусе Healthy
 
-![Целевая группа Healthy](nginx-target-group.jpg)
+![Целевая группа Healthy](screenshots/nginx-target-group.jpg)
 
 ### 3. Настройки healthcheck балансировщика
 
-![Healthcheck балансировщика](balancer.jpg)
+![Healthcheck балансировщика](screenshots/balancer.jpg)
 
 ### 4. Страница Nginx (ВМ-1) через балансировщик
 
-![Страница Nginx VM-1](nginx-page1.jpg)
+![Страница Nginx VM-1](screenshots/nginx-page1.jpg)
 
 ### 5. Страница Nginx (ВМ-2) через балансировщик
 
-![Страница Nginx VM-2](nginx-page2.jpg)
+![Страница Nginx VM-2](screenshots/nginx-page2.jpg)
 
 ## ✅ Результаты
 
